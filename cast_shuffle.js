@@ -99,7 +99,6 @@ function distributePeopleAndScores() {
 
 		// クリアする行が存在する場合のみクリアを行う
 		if (numRows > 0) {
-			// Update this line to also clear the cell to the right
 			resultSheet.getRange(lastRow, startColumn, numRows, 2).clearContent();
 		}
 	}
